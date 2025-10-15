@@ -1,2 +1,2 @@
 #!/bin/bash
-tr ' ' '\n' < fichier.txt | sort | uniq -u
+cat *.txt |tr ' ' '\n'| sort | uniq -u
